@@ -20,6 +20,17 @@ impl People {
     fn update_name(&mut self,name:String){
         self.username = name;
     }
+    fn new(id:i32,username:String,code:String,height:f32,weight:f32,age:i8,male:bool)-> People {
+        People{
+            id,
+            username,
+            code,
+            height,
+            weight,
+            age,
+            male
+        }
+    }
 }
 // tuple struct
 #[derive(Debug)]
@@ -57,6 +68,8 @@ fn main(){
     people1.cal();
     people1.update_name(String::from( "yevu" ));
     people1.view("yyy");
+    let people4 = People::new(5,String::from( "111" ),String::from( "code5" ),20.1,21.1,11,true);
+    println!("people4:{:?}",people4);
 }
 fn build_people(id:i32,username:String,code:String,height:f32,weight:f32,age:i8,male:bool)->People{
     People{
@@ -66,7 +79,7 @@ fn build_people(id:i32,username:String,code:String,height:f32,weight:f32,age:i8,
         height,
         weight,
         age,
-        male:male
+        male
     }
 }
 
