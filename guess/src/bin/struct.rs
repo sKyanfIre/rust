@@ -53,6 +53,7 @@ fn main(){
         code:String::from("code2"),
         ..people1
     }; 
+    println!("people1:{:?}",people1);
     println!("people2:{:#?}",people2);
     let mut people3 = build_people(3,String::from("yyy"),String::from("code3"),120.9,59.1,20,false);
     println!("people3:{:#?}",people3);
