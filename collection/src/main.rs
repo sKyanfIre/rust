@@ -4,6 +4,7 @@ pub mod hashmap;
 pub mod generic;
 pub mod error;
 pub mod mytrait;
+pub mod lifecycle;
 fn main() {
     // println!("Hello, world!");
     vec::use_vector();
@@ -17,4 +18,6 @@ fn main() {
     generic::use_generic();
     println!("-------------------------------");
     mytrait::use_trait();
+    println!("---------------------------------");
+    lifecycle::use_lifecycle();
 }
