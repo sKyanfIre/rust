@@ -5,6 +5,7 @@ pub mod generic;
 pub mod error;
 pub mod mytrait;
 pub mod lifecycle;
+pub mod test;
 fn main() {
     // println!("Hello, world!");
     vec::use_vector();
