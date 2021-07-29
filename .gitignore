@@ -14,3 +14,19 @@ Cargo.lock
 **/*.rs.bk
 
 zzz/target/debug/build/libc-72b431f3de491719/build_script_build-72b431f3de491719
+
+leetcode/target/debug/.fingerprint/leetcode-934e3df2180a4cdd/bin-leetcode
+leetcode/target/debug/.fingerprint/leetcode-934e3df2180a4cdd/bin-leetcode.json
+leetcode/target/debug/.fingerprint/leetcode-934e3df2180a4cdd/dep-bin-leetcode
+leetcode/target/debug/.fingerprint/leetcode-934e3df2180a4cdd/invoked.timestamp
+leetcode/target/debug/.fingerprint/leetcode-f7a66c897ec73547/dep-test-bin-leetcode
+leetcode/target/debug/.fingerprint/leetcode-f7a66c897ec73547/invoked.timestamp
+leetcode/target/debug/.fingerprint/leetcode-f7a66c897ec73547/test-bin-leetcode
+leetcode/target/debug/.fingerprint/leetcode-f7a66c897ec73547/test-bin-leetcode.json
+leetcode/target/debug/deps/leetcode-934e3df2180a4cdd.d
+leetcode/target/debug/deps/leetcode-f7a66c897ec73547.d
+leetcode/target/debug/deps/libleetcode-934e3df2180a4cdd.rmeta
+leetcode/target/debug/deps/libleetcode-f7a66c897ec73547.rmeta
+leetcode/target/debug/.cargo-lock
+leetcode/target/.rustc_info.json
+leetcode/target/CACHEDIR.TAG
